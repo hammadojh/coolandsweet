@@ -247,7 +247,7 @@ p {
   .fh5co-main-nav .fh5co-menu-2,
   .fh5co-main-nav .fh5co-logo {
     vertical-align: middle;
-    float: left;
+    float: right;
     line-height: 0; }
     .fh5co-main-nav .fh5co-menu-1 a,
     .fh5co-main-nav .fh5co-menu-2 a,
@@ -272,7 +272,7 @@ p {
       .fh5co-main-nav .fh5co-logo a.active {
         color: #8cca7b; }
   .fh5co-main-nav .fh5co-menu-1 {
-    text-align: right;
+    text-align: left;
     width: 40.33%; }
     .fh5co-main-nav .fh5co-menu-1 a {
       vertical-align: middle; }
@@ -288,7 +288,7 @@ p {
       top: -5px;
       display: inline-block; }
   .fh5co-main-nav .fh5co-menu-2 {
-    text-align: left;
+    text-align: right;
     width: 40.33%; }
 
 .fh5co-heading .heading {
@@ -335,7 +335,7 @@ p {
         width: 100%; } }
   #fh5co-about .fh5co-text {
     padding: 2em 6em;
-    text-align: left;
+    text-align: right;
     background: #130d08 url(../images/wood_1.png) repeat; }
     @media screen and (max-width: 1200px) {
       #fh5co-about .fh5co-text {
@@ -363,13 +363,13 @@ p {
       line-height: 2;
       color: #a99c92; }
       #fh5co-about .fh5co-text p span.firstcharacter {
-        float: left;
+        float: right;
         color: #903;
         font-size: 75px;
         line-height: 60px;
         padding-top: 4px;
-        padding-right: 10px;
-        padding-left: 3px;
+        padding-left: 10px;
+        padding-right: 3px;
         font-style: italic;
         top: -20px;
         position: relative;
@@ -490,29 +490,6 @@ p {
       position: absolute;
       z-index: 999;
       top: 50px;
-      left: 0;
-      margin-left: -15px;
-      width: 0;
-      height: 0;
-      border-top: 15px solid transparent;
-      border-bottom: 15px solid transparent;
-      border-right: 15px solid #f5f5f5; }
-      @media screen and (max-width: 768px) {
-        #fh5co-featured .fh5co-grid .arrow-left:before, #fh5co-featured .fh5co-grid .arrow-left::before {
-          right: auto !important;
-          left: 15px !important;
-          top: 0 !important;
-          margin-top: -15px !important;
-          margin-left: 0px !important;
-          border-top: none !important;
-          border-left: 15px solid transparent !important;
-          border-right: 15px solid transparent !important;
-          border-bottom: 15px solid #f5f5f5 !important; } }
-    #fh5co-featured .fh5co-grid .arrow-right:before, #fh5co-featured .fh5co-grid .arrow-right::before {
-      content: "";
-      position: absolute;
-      z-index: 999;
-      top: 50px;
       right: 0;
       margin-right: -15px;
       width: 0;
@@ -520,23 +497,46 @@ p {
       border-top: 15px solid transparent;
       border-bottom: 15px solid transparent;
       border-left: 15px solid #f5f5f5; }
-      @media screen and (max-width: 992px) {
-        #fh5co-featured .fh5co-grid .arrow-right:before, #fh5co-featured .fh5co-grid .arrow-right::before {
-          right: auto !important;
-          left: 0 !important;
-          margin-left: -15px !important;
-          border-left: none !important;
-          border-right: 15px solid #f5f5f5 !important; } }
       @media screen and (max-width: 768px) {
-        #fh5co-featured .fh5co-grid .arrow-right:before, #fh5co-featured .fh5co-grid .arrow-right::before {
-          right: auto !important;
-          left: 15px !important;
+        #fh5co-featured .fh5co-grid .arrow-left:before, #fh5co-featured .fh5co-grid .arrow-left::before {
+          left: auto !important;
+          right: 15px !important;
           top: 0 !important;
           margin-top: -15px !important;
-          margin-left: 0px !important;
+          margin-right: 0px !important;
           border-top: none !important;
-          border-left: 15px solid transparent !important;
           border-right: 15px solid transparent !important;
+          border-left: 15px solid transparent !important;
+          border-bottom: 15px solid #f5f5f5 !important; } }
+    #fh5co-featured .fh5co-grid .arrow-right:before, #fh5co-featured .fh5co-grid .arrow-right::before {
+      content: "";
+      position: absolute;
+      z-index: 999;
+      top: 50px;
+      left: 0;
+      margin-left: -15px;
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-right: 15px solid #f5f5f5; }
+      @media screen and (max-width: 992px) {
+        #fh5co-featured .fh5co-grid .arrow-right:before, #fh5co-featured .fh5co-grid .arrow-right::before {
+          left: auto !important;
+          right: 0 !important;
+          margin-right: -15px !important;
+          border-right: none !important;
+          border-left: 15px solid #f5f5f5 !important; } }
+      @media screen and (max-width: 768px) {
+        #fh5co-featured .fh5co-grid .arrow-right:before, #fh5co-featured .fh5co-grid .arrow-right::before {
+          left: auto !important;
+          right: 15px !important;
+          top: 0 !important;
+          margin-top: -15px !important;
+          margin-right: 0px !important;
+          border-top: none !important;
+          border-right: 15px solid transparent !important;
+          border-left: 15px solid transparent !important;
           border-bottom: 15px solid #f5f5f5 !important; } }
     #fh5co-featured .fh5co-grid > .fh5co-v-half {
       width: 50%;
@@ -558,7 +558,7 @@ p {
       #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1 {
         background: #faebcd; }
         #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left:before, #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left::before {
-          border-right: 15px solid #faebcd; }
+          border-left: 15px solid #faebcd; }
           @media screen and (max-width: 768px) {
             #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left:before, #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left::before {
               border-left: 15px solid transparent !important;
@@ -605,13 +605,13 @@ p {
                 height: 200px; } }
         #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-h-row-2.fh5co-reversed .fh5co-bg-img {
           position: absolute;
-          right: 0;
+          left: 0;
           bottom: 0;
           top: 0; }
           @media screen and (max-width: 992px) {
             #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-h-row-2.fh5co-reversed .fh5co-bg-img {
               position: relative;
-              right: inherit;
+              left: inherit;
               top: inherit;
               bottom: inherit; } }
 
@@ -636,7 +636,7 @@ p {
   #fh5co-menus .fh5co-heading .sub-heading {
     color: #a99c92; }
   #fh5co-menus .fh5co-food-menu {
-    float: left;
+    float: right;
     width: 100%;
     margin-bottom: 30px; }
     @media screen and (max-width: 768px) {
@@ -650,23 +650,23 @@ p {
       font-style: italic;
       position: relative; }
       #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
-        padding-left: 50px; }
+        padding-right: 70px; }
         #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
           background: url(../images/0301-pina-colada.png) no-repeat;
           content: "";
           position: absolute;
           top: -20px;
-          left: 0;
+          right: 0;
           width: 64px;
           height: 64px; }
       #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
-        padding-left: 80px; }
+        padding-right: 80px; }
         #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
           background: url(../images/0302-steak.png) no-repeat;
           content: "";
           position: absolute;
           top: 0;
-          left: 0;
+          right: 0;
           width: 64px;
           height: 45px; }
     #fh5co-menus .fh5co-food-menu ul {
@@ -677,17 +677,17 @@ p {
         margin: 0 0 20px 0;
         border-bottom: 1px dotted #ccc;
         display: block;
-        float: left;
+        float: right;
         width: 100%; }
         #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc {
           clear: both;
-          float: left;
+          float: right;
           width: 80%; }
           #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure {
             width: 20%;
-            float: left;
+            float: right;
             position: relative;
-            margin-right: 4%; }
+            margin-left: 4%; }
             #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure img {
               max-width: 100%;
               -webkit-border-radius: 4px;
@@ -709,9 +709,9 @@ p {
               font-size: 20px;
               color: #000; }
         #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing {
-          float: right;
+          float: left;
           width: 20%;
-          text-align: right;
+          text-align: left;
           font-size: 20px;
           color: #8cca7b; }
 
@@ -835,12 +835,12 @@ p {
       position: relative;
       padding: 0;
       margin: 0 0 1.5em 0;
-      padding-left: 50px;
+      padding-right: 50px;
       list-style: none; }
       #fh5co-contact .fh5co-contact-info li i {
         position: absolute;
         top: .4em;
-        left: 0; }
+        right: 0; }
 
 #fh5co-container {
   position: relative;
@@ -1100,3 +1100,21 @@ p {
   padding-bottom: 40px; }
 
 /*# sourceMappingURL=mystyle.css.map */
+
+@font-face {
+	font-family: 'dastnevis';
+	src:url('fonts/dastnevis.ttf');
+	src:url('fonts/dastnevis.tff') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fh5co-main-nav .fh5co-logo a {
+	padding: 0px;
+	padding-top: 15px;
+}
+
+
+#fh5co-home .flexslider .fh5co-text h2, .fh5co-main-nav .fh5co-menu-1 a, .fh5co-main-nav .fh5co-menu-2 a, .fh5co-main-nav .fh5co-logo a, #fh5co-about .fh5co-text .heading, .btn, #fh5co-featured .fh5co-grid .pricing, #fh5co-featured .fh5co-grid h2, #fh5co-type h3, #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3, #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing, #fh5co-events .fh5co-event h3, #fh5co-events .fh5co-event .fh5co-event-meta, #fh5co-contact .fh5co-contact-info li, .js .to-animate, .js .to-animate-2, #fh5co-offcanvas a {
+	font-family: 'Harmattan' !important;
+}

@@ -196,7 +196,7 @@
 			    	
 			   }
 
-		    event.preventDefault();
+		    //event.preventDefault();
 
 		    // return false;
 		});
