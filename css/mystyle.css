@@ -615,15 +615,15 @@ p {
               top: inherit;
               bottom: inherit; } }
 
-#fh5co-menus {
+.fh5co-menus {
   padding: 7em 0; }
   @media screen and (max-width: 768px) {
-    #fh5co-menus {
+    .fh5co-menus {
       padding: 5em 0; } }
-  #fh5co-menus .fh5co-heading .heading {
+  .fh5co-menus .fh5co-heading .heading {
     position: relative;
     padding-top: 30px !important; }
-    #fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
+    .fh5co-menus .fh5co-heading .heading:before, .fh5co-menus .fh5co-heading .heading::before {
       height: 64px;
       width: 64px;
       position: absolute;
@@ -633,25 +633,25 @@ p {
       left: 50%;
       margin-top: -50px;
       margin-left: -32px; }
-  #fh5co-menus .fh5co-heading .sub-heading {
+  .fh5co-menus .fh5co-heading .sub-heading {
     color: #a99c92; }
-  #fh5co-menus .fh5co-food-menu {
+  .fh5co-menus .fh5co-food-menu {
     float: right;
     width: 100%;
     margin-bottom: 30px; }
     @media screen and (max-width: 768px) {
-      #fh5co-menus .fh5co-food-menu {
+      .fh5co-menus .fh5co-food-menu {
         margin-bottom: 30px;
         float: left;
         width: 100%;
         clear: none !important; } }
-    #fh5co-menus .fh5co-food-menu h2 {
+    .fh5co-menus .fh5co-food-menu h2 {
       margin-bottom: 50px;
       font-style: italic;
       position: relative; }
-      #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
+      .fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
         padding-right: 70px; }
-        #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
+        .fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
           background: url(../images/0301-pina-colada.png) no-repeat;
           content: "";
           position: absolute;
@@ -659,9 +659,9 @@ p {
           right: 0;
           width: 64px;
           height: 64px; }
-      #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
+      .fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
         padding-right: 80px; }
-        #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
+        .fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
           background: url(../images/0302-steak.png) no-repeat;
           content: "";
           position: absolute;
@@ -669,46 +669,46 @@ p {
           right: 0;
           width: 64px;
           height: 45px; }
-    #fh5co-menus .fh5co-food-menu ul {
+    .fh5co-menus .fh5co-food-menu ul {
       padding: 0;
       margin: 0; }
-      #fh5co-menus .fh5co-food-menu ul li {
+      .fh5co-menus .fh5co-food-menu ul li {
         padding: 0 0 20px 0;
         margin: 0 0 20px 0;
         border-bottom: 1px dotted #ccc;
         display: block;
         float: right;
         width: 100%; }
-        #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc {
+        .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc {
           clear: both;
           float: right;
           width: 80%; }
-          #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure {
+          .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure {
             width: 20%;
             float: right;
             position: relative;
             margin-left: 4%; }
-            #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure img {
+            .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure img {
               max-width: 100%;
               -webkit-border-radius: 4px;
               -moz-border-radius: 4px;
               -ms-border-radius: 4px;
               border-radius: 4px;
               margin-bottom: 0; }
-          #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div {
+          .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div {
             width: 75%;
             float: left;
             position: relative;
             font-size: 14px;
             line-height: 1.5; }
-            #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div p {
+            .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div p {
               margin: 0; }
-            #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
+            .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
               margin: 0 0 10px 0;
               padding: 0;
               font-size: 20px;
               color: #000; }
-        #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing {
+        .fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing {
           float: left;
           width: 20%;
           text-align: left;
@@ -1115,6 +1115,6 @@ p {
 }
 
 
-#fh5co-home .flexslider .fh5co-text h2, .fh5co-main-nav .fh5co-menu-1 a, .fh5co-main-nav .fh5co-menu-2 a, .fh5co-main-nav .fh5co-logo a, #fh5co-about .fh5co-text .heading, .btn, #fh5co-featured .fh5co-grid .pricing, #fh5co-featured .fh5co-grid h2, #fh5co-type h3, #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3, #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing, #fh5co-events .fh5co-event h3, #fh5co-events .fh5co-event .fh5co-event-meta, #fh5co-contact .fh5co-contact-info li, .js .to-animate, .js .to-animate-2, #fh5co-offcanvas a {
+#fh5co-home .flexslider .fh5co-text h2, .fh5co-main-nav .fh5co-menu-1 a, .fh5co-main-nav .fh5co-menu-2 a, .fh5co-main-nav .fh5co-logo a, #fh5co-about .fh5co-text .heading, .btn, #fh5co-featured .fh5co-grid .pricing, #fh5co-featured .fh5co-grid h2, #fh5co-type h3, .fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3, .fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing, #fh5co-events .fh5co-event h3, #fh5co-events .fh5co-event .fh5co-event-meta, #fh5co-contact .fh5co-contact-info li, .js .to-animate, .js .to-animate-2, #fh5co-offcanvas a {
 	font-family: 'Harmattan' !important;
 }

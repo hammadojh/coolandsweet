@@ -196,7 +196,7 @@
 			    	
 			   }
 
-		    //event.preventDefault();
+		    event.preventDefault();
 
 		    // return false;
 		});
@@ -406,7 +406,7 @@
 	};
 
 	var foodMenusAnimate = function() {
-		var menus = $('#fh5co-menus');
+		var menus = $('.fh5co-menus');
 		if ( menus.length > 0 ) {	
 
 			menus.waypoint( function( direction ) {
